@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 CobranzasPro UI
 
-## Getting Started
+Un prototipo avanzado de Gestión de Cobranzas diseñado con un enfoque radical en la **Experiencia de Usuario (UX)**, la **Tecnología Persuasiva** y la **Psicología Computacional**. 
 
-First, run the development server:
+Este proyecto demuestra cómo el diseño moderno puede transformar una herramienta interna tradicional (pesada, lenta y con alta carga visual) en un sistema rápido, intuitivo y agradable de usar.
 
+---
+
+## 🧠 Principios UX Aplicados
+
+Este proyecto no es solo una "cara bonita". Cada botón, espacio y flujo de trabajo está respaldado por los siguientes pilares y heurísticas de UX:
+
+### 1. Útil (Useful): Reducción de Fricción Operativa
+- **Resultados Rápidos (1-Clic):** En lugar de menús desplegables interminables, las acciones más comunes (Promesa de pago, Buzón, etc.) son botones grandes de un solo clic. Esto ahorra cientos de clics por usuario al día.
+- **Atajos de Teclado:** Presionando `Ctrl + Enter` se guarda la gestión automáticamente, permitiendo a los *Power Users* trabajar sin tocar el mouse.
+
+### 2. Usable (Usable): Reducción de Carga Cognitiva
+- **Divulgación Progresiva (Progressive Disclosure):** Pasamos de una interfaz saturada a un diseño limpio de 2 columnas. Los datos secundarios del cliente (como dirección física o correos alternativos) están ocultos por defecto y solo se muestran cuando el gestor hace clic en "Ver más detalles".
+- **Valores por Defecto (Smart Defaults):** El sistema pre-selecciona automáticamente el teléfono principal y asume el tipo de operación para agilizar la gestión.
+
+### 3. Accesible (Accessible): Diseño Inclusivo
+- **Modo Oscuro (Dark Mode):** Interruptor integrado para cambiar a un tema oscuro, diseñado para reducir la fatiga visual de los gestores que pasan turnos de 8 horas mirando la pantalla.
+- **Codificación Doble:** Los estados no solo usan color (ej. rojo para deudas, verde para pagos), sino que se acompañan de íconos claros para garantizar la usabilidad en personas con daltonismo.
+
+### 4. Deseable (Desirable): El "WOW Factor"
+- **Sugerencias de Inteligencia Artificial:** Tarjetas predictivas que le dicen al gestor a qué hora es más probable que el cliente responda.
+- **Micro-animaciones de Recompensa:** Al registrar un éxito (ej. Promesa de pago), el sistema lanza una micro-animación de celebración, liberando dopamina (gamificación) y manteniendo al empleado motivado.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+- **Next.js / React** (App Router)
+- **Tailwind CSS** (Para estilos y utilidades rápidas)
+- Diseño Responsivo y Componentes Modulares
+
+## 🚀 Cómo ejecutarlo localmente
+
+1. Clona este repositorio:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/fabiangalvez32/sistema-cobranzas-ui.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Abre tu navegador en [http://localhost:3000](http://localhost:3000). Para ver la versión final súper optimizada, dirígete a [http://localhost:3000/optimizada](http://localhost:3000/optimizada).
